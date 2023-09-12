@@ -44,9 +44,11 @@ pimcore.plugin.pimcoreCIHubAdapterBundle.configuration.configItem = Class.create
                             width: 32,
                             style: 'margin-left: 8px',
                             iconCls: 'pimcore_icon_clear_cache',
-                            handler: () => {
-                                apikeyField.setValue(md5(uniqid()));
-                            },
+                            handler: function () {
+                                const value = apikeyField.getValue();
+                                const key = md5(uniqid());
+                                apikeyField.setValue(value ? value + "\n" + key : key);
+                            }.bind(this)
                         },
                     ],
                 },
