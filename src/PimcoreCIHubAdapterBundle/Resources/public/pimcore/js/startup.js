@@ -16,9 +16,9 @@ pimcore.plugin.pimcoreCIHubAdapterBundle = Class.create(pimcore.plugin.admin, {
     getClassName: function () {
         return 'pimcore.plugin.pimcoreCIHubAdapterBundle';
     },
-
-    initialize: function () {
-        pimcore.plugin.broker.registerPlugin(this);
+    initialize: function() {
+        document.addEventListener(pimcore.events.pimcoreReady, this.onPimcoreReady.bind(this));
+        document.addEventListener(pimcore.events.onPerspectiveEditorLoadPermissions, this.onPerspectiveEditorLoadPermissions.bind(this));
     },
 });
 

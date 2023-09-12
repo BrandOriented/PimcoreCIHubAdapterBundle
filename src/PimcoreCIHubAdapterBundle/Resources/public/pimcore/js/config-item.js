@@ -11,8 +11,9 @@
  * @license    https://github.com/ci-hub-gmbh/PimcoreCIHubAdapterBundle/blob/master/gpl-3.0.txt GNU General Public License version 3 (GPLv3)
  */
 
-pimcore.registerNS('pimcore.plugin.pimcoreCIHubAdapterBundle.configuration.configItem');
+pimcore.registerNS("pimcore.plugin.pimcoreCIHubAdapterBundle.configuration.configItem");
 pimcore.plugin.pimcoreCIHubAdapterBundle.configuration.configItem = Class.create(pimcore.plugin.simpleRestAdapterBundle.configuration.configItem, {
+
     getDeliverySettings: function () {
         const apikeyField = new Ext.form.field.Text({
             xtype: 'textfield',

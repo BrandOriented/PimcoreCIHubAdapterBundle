@@ -15,10 +15,13 @@
 namespace CIHub\Bundle\PimcoreCIHubAdapterBundle;
 
 use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
+use Pimcore\Extension\Bundle\PimcoreBundleAdminClassicInterface;
+use Pimcore\Extension\Bundle\Traits\BundleAdminClassicTrait;
 use Pimcore\Extension\Bundle\Traits\PackageVersionTrait;
 
-class PimcoreCIHubAdapterBundle extends AbstractPimcoreBundle
+class PimcoreCIHubAdapterBundle extends AbstractPimcoreBundle implements PimcoreBundleAdminClassicInterface
 {
+    use BundleAdminClassicTrait;
     use PackageVersionTrait;
 
     public const PACKAGE_NAME = 'ci-hub/pimcore-ci-hub-adapter-bundle';
