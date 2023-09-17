@@ -19,7 +19,7 @@
     "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
     "pimcore/data-hub": "^1.1",
     "pimcore/pimcore": "^10.6 || ^11.0",
-    "ci-hub/simple-rest-adapter-bundle": "*"
+    "ci-hub/rest-adapter-bundle": "*"
   },
   "require-dev": {
     "phpstan/phpstan": "^1.10",
@@ -39,12 +39,6 @@
       "bundles": [
         "CIHub\\Bundle\\PimcoreCIHubAdapterBundle\\PimcoreCIHubAdapterBundle"
       ]
-    }
-  },
-  "repositories": {
-    "ci-hub/pimcore-ci-hub-adapter-bundle": {
-      "type": "vcs",
-      "url": "git@github.com:BrandOriented/PimcoreCIHubAdapterBundle.git"
     }
   }
 }
