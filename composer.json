@@ -1,5 +1,5 @@
 {
-  "name": "brandoriented/pimcore-ci-hub-adapter-bundle",
+  "name": "brandoriented/ci-hub-adapter-bundle",
   "type": "pimcore-bundle",
   "license": "GPL-3.0-or-later",
   "description": "CI HUB Adapter for Pimcore DataHub",
@@ -13,6 +13,17 @@
       "name": "CI HUB GmbH",
       "email": "info@ci-hub.com",
       "homepage": "https://ci-hub.com"
+    },
+    {
+      "name": "Brand Oriented",
+      "email": "biuro@brandoriented.pl",
+      "homepage": "https://brandoriented.pl",
+      "role": "Developer"
+    },
+    {
+      "name": "Dominik Labudzinski",
+      "email": "dominik@labudzinski.com",
+      "role": "Developer"
     }
   ],
   "require": {

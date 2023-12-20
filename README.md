@@ -64,8 +64,13 @@ for Pimcore DataHub, see its documentation for details on configuration and usag
 - [ ] Identification endpoint with permission details (CRUD)
 
 ## License
+
+**Brand Oriented**, Okopowa 33/26, 01-059 Warszawa, Polska  
+[brandoriented.pl](https://brandoriented.pl), biuro@brandoriented.pl  
+Copyright © 2023 Brand Oriented. All rights reserved.
+
 **CI HUB GmbH**, Benkertstrasse 4, 14467 Potsdam, Germany  
 [ci-hub.com](https://ci-hub.com), info@ci-hub.com  
 Copyright © 2021 CI HUB GmbH. All rights reserved.
 
-For licensing details please visit [LICENSE.md](LICENSE.md) 
+For licensing details please visit [LICENSE.md](LICENSE.md)
