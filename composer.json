@@ -1,5 +1,5 @@
 {
-  "name": "brandoriented/ci-hub-adapter-bundle",
+  "name": "bo-hub/ci-hub-adapter-bundle",
   "type": "pimcore-bundle",
   "license": "GPL-3.0-or-later",
   "description": "CI HUB Adapter for Pimcore DataHub",
@@ -30,7 +30,7 @@
     "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
     "pimcore/data-hub": "^1.1",
     "pimcore/pimcore": "^10.6 || ^11.0",
-    "brandoriented/ci-hub-api-bundle": "^3.0"
+    "bo-hub/ci-hub-api-bundle": "^3.0"
   },
   "require-dev": {
     "phpstan/phpstan": "^1.10",
