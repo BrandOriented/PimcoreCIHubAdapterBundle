@@ -42,6 +42,9 @@
       "CIHub\\Bundle\\PimcoreCIHubAdapterBundle\\": "src/PimcoreCIHubAdapterBundle/"
     }
   },
+  "replace": {
+    "ci-hub/pimcore-ci-hub-adapter-bundle": "*"
+  },
   "extra": {
     "branch-alias": {
       "dev-master": "2.0-dev"
