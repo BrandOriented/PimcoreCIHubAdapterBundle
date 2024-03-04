@@ -42,7 +42,6 @@ class PimcoreCIHubAdapterBundle extends AbstractPimcoreBundle implements Pimcore
     public function getJsPaths(): array
     {
         return [
-            '/bundles/pimcorecihubadapter/pimcore/js/startup.js',
             '/bundles/pimcorecihubadapter/pimcore/js/adapter.js',
             '/bundles/pimcorecihubadapter/pimcore/js/config-item.js',
         ];
